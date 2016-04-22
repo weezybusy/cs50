@@ -15,7 +15,7 @@
  * rob:50q.zrL5e0Sak
  * skroob:50Bpa7n/23iug
  * zamyla:HAYRs6vZAb4wo
- *
+
  * Crack these passwords, each of which has been encrypted with C’s DES-based
  * (not MD5-based) crypt function. Specifically, write, in crack.c, a program
  * that accepts a single command-line argument: an encrypted password. If your

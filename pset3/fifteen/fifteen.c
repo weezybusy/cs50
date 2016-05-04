@@ -41,7 +41,6 @@ void init(void);
 void draw(void);
 bool move(int tile);
 bool won(void);
-int absolute(int x);
 
 int main(int argc, string argv[])
 {
@@ -259,9 +258,4 @@ bool won(void)
         }
     }
     return false;
-}
-
-int absolute(int x)
-{
-    return x < 0 ? -x : x;
 }
